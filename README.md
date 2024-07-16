@@ -98,3 +98,11 @@ nest g resource temp
 cd src/usuario:
 nest --help
 nest g controller usuario --flat --no-spec
+
+cd src/db
+nest g module db
+nest g s prisma --flat --no-spec
+
+cd src/usuario
+nest --help
+nest g pr usuario.repository --flat --no-spec

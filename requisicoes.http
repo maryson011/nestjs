@@ -2,10 +2,25 @@ POST http://localhost:3000/usuario
 content-type: application/json
 
 {
-    "name": "Maryson Silva",
-    "email": "maryson@email.com",
-    "senha": "123456"
+    "nome": "Leonardo Leitão",
+    "email": "leonardo@email.com",
+    "senha": "232323"
 }
 
-# ###
-# GET http://localhost:3000/app/
+###
+PATCH http://localhost:3000/usuario/1
+content-type: application/json
+
+{
+    "nome": "Leonardo Leitão",
+    "email": "leonardo@email.com"
+}
+
+###
+GET http://localhost:3000/usuario
+
+###
+GET http://localhost:3000/usuario/1
+
+###
+DELETE http://localhost:3000/usuario/2
