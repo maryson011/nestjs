@@ -72,8 +72,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
+---
 
--------------------------------------
 https://docs.nestjs.com/
 $ npm i -g @nestjs/cli
 $ nest new project-name
@@ -82,8 +82,9 @@ https://www.prisma.io/docs/getting-started/quickstart
 npm install prisma --save-dev
 npx prisma init --datasource-provider sqlite
 
-
-
 ========
-MVC - model view controller
+MVC - Model View Controller
 browser ----HTTP-REQ---> controller ---HTTP-RESP---> browser
+browser ----HTTP-REQ---> controller ---model---> controller ---HTTP-RESP---> browser
+----------------------------------------DB-----------------------JSON---------------
+
