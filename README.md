@@ -81,3 +81,9 @@ $ nest new project-name
 https://www.prisma.io/docs/getting-started/quickstart
 npm install prisma --save-dev
 npx prisma init --datasource-provider sqlite
+
+
+
+========
+MVC - model view controller
+browser ----HTTP-REQ---> controller ---HTTP-RESP---> browser
