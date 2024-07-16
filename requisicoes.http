@@ -1,4 +1,11 @@
-GET http://localhost:3000/app/teste
+POST http://localhost:3000/usuario
+content-type: application/json
 
-###
-GET http://localhost:3000/app/
+{
+    "name": "Maryson Silva",
+    "email": "maryson@email.com",
+    "senha": "123456"
+}
+
+# ###
+# GET http://localhost:3000/app/

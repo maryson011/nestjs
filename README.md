@@ -82,9 +82,19 @@ https://www.prisma.io/docs/getting-started/quickstart
 npm install prisma --save-dev
 npx prisma init --datasource-provider sqlite
 
+corrigir automatiamente o arquivo Prettier (eslint)
+npx prettier --write
+
 ========
 MVC - Model View Controller
 browser ----HTTP-REQ---> controller ---HTTP-RESP---> browser
 browser ----HTTP-REQ---> controller ---model---> controller ---HTTP-RESP---> browser
 ----------------------------------------DB-----------------------JSON---------------
 
+nest --help
+nest g module usuario
+nest g resource temp
+
+cd src/usuario:
+nest --help
+nest g controller usuario --flat --no-spec
